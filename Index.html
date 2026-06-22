@@ -1,59 +1,6 @@
-
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplikasi Web Saya</title>
-    <style>
-        /* Bagian CSS untuk mengatur tampilan */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f8ff;
-            color: #333;
-        }
-        .container {
-            background: white;
-            padding: 30px 50px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        button {
-            margin-top: 15px;
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <h1>Halo dari GitHub Pages!</h1>
-        <p>Ini adalah tampilan awal aplikasi web Anda.</p>
-        <button onclick="tampilkanPesan()">Coba Klik</button>
-    </div>
-
-    <script>
-        function tampilkanPesan() {
-            alert("Berhasil! Kode ini sudah berjalan dengan baik.");
-        }
-    </script>
-
-</body>
-</html>
+// app-settings: { schoolName, teacherName, semester, targetLiterasi, targetNumerasi }
+// classes: Class[] — { id, name, level }
+// students: Student[] — { id, nis, name, classId, gender, birthDate, address }
+// programs: Program[] — { id, name, type: 'literasi'|'numerasi', description }
+// activities: Activity[] — { id, date, programId, classId, title, description, createdAt }
+// student-progress: Progress[] — { id, studentId, activityId, type, score, status, notes }
